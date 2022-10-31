@@ -1,0 +1,226 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    margin-top: 50px;
+    background-image: url(./resources/tło2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px 20px;
+    margin: auto;   
+    background-color: white;
+    color: black;
+    top : 0;
+    left: 0;
+    right: 0;
+    position:fixed;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+
+.page   {
+    display: flex;
+    margin-left: auto;
+    gap: 35px;
+    align-items: center;
+    justify-content: center;
+}
+
+.pages  {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.logo   {
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.content    {
+    width: 100%;
+    height: 720px;
+    background-color: rgba(255, 0, 0, 0.705);
+    background-size: cover;
+    opacity: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    color: black;
+    flex-shrink: 0;
+
+}
+
+.story  {
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    flex-direction: column;
+    margin-left: 200px;
+}
+
+.contsmall  {
+    background-color: rgba(255, 255, 255, 0.788);
+    width: 600px;
+    border-radius: 25px;
+    border: 2px solid black;
+    padding: 20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    flex:auto;
+}
+
+.bigtext {
+    font-size: 72px;
+    margin-bottom: 50px;
+    margin-top: -30px;
+    text-shadow: 2px 0 white, -2px 0 white, 0 2px white, 0 -2px white, 1px 1px white, -1px -1px white, -1px 1px white, 1px -1px white;
+}
+
+.smalltext  {
+    font-size: 30px;
+    display: flex;
+}
+
+.crucialimg {
+    margin-left: 200px;
+    width: 600px;
+    border-radius: 25px;
+    border: 2px solid black;
+    display: flex;
+}
+
+.characters {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 720px;
+    background-color: rgba(255, 255, 255, 0.541);
+}
+.chargroup  {
+    display: flex;
+    gap: 20px;
+}
+
+.charname   {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.charinfo   {
+    font-size: 20px;
+    font-weight: 300;
+    width: 300px;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.characterimg   {
+    height: 200px;
+    width: 200px;
+    padding: 0 50px;
+
+}
+
+.character  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.quote  {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.493);
+    height: 500px;
+    color:white;
+}
+
+.quotebig   {
+    font-size: 80px;
+    padding: 30px;
+}
+
+.quotesmall {
+    display:flex;
+    justify-content: flex-end;
+}
+
+.contact    {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 0, 0, 0.445);
+    flex-shrink: 0;
+}
+
+.bigcontainer   {
+    background-color: lightblue;
+    border: 2px solid black;
+    display: flex;
+    width: 60%;
+    height: 30%;
+    border-radius: 25px;
+    justify-content: flex-start;
+    padding: 20px;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.bigtextcontainer   {
+    font-size: 40px;
+}
+
+.smalltextcontainer {
+    font-size: 20px;
+}
+
+.contactbutton  {
+    font-size: 30px;
+    margin-left: 90px;
+    color: white;
+    background-color: rgb(78, 208, 252);
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.footer {
+    background-color: grey;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.credits    {
+    font-size: 20px;
+    color: white;
+}
+
+.buttonrick {
+    color: black;
+    background-color: rgba(128, 128, 128, 0.459);
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+
+a   {
+    text-decoration: none;
+    color: black;
+}
